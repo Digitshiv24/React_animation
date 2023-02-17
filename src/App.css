@@ -1,0 +1,40 @@
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slider {
+  display: inline-block;
+  margin: 20px;
+}
+
+.slider img {
+  width: 0vh;
+  height: auto;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.slider-nav button {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  margin: 0 10px;
+}
+
+.slider-nav button:hover {
+  background-color: #000;
+  color: #fff;
+}
