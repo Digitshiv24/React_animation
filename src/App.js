@@ -1,14 +1,13 @@
-import './App.css';
-import React from "react";
-import Slider from "./Slider/Slider"
+import React from 'react';
+import Main  from './Main/Main';
 
+import './App.css';
 function App() {
   return (
-    <div className="App">
-      <Slider />
+    <div>
+      <Main/>
     </div>
   );
 }
-
 
 export default App;

@@ -1,0 +1,96 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #140000;
+  color: #2B3467;
+  height: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: end;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+.menu.open {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  color: #bad7e9;;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu a:hover {
+ text-decoration: underline;
+}
+
+
+.menu-btn {
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22px;
+  width: 22px;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.menu-btn:hover {
+  transform: scale(1.2);
+}
+
+.menu-btn.open {
+  transform: rotate(180deg);
+}
+
+.menu-btn .close-icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 11px;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.menu-btn span {
+  display: none;
+  height: 3px;
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 480px) {
+  .menu-btn span {
+    display: block;
+  }
+}
