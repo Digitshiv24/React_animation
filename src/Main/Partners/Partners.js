@@ -25,10 +25,10 @@ function TwoColumnLayout() {
       initial="hidden"
       animate="visible"
     >
-      <motion.div className="image" variants={imageVariants}>
+      <motion.div className="assets" variants={imageVariants}>
         <img
           src="https://images.unsplash.com/photo-1471400974796-1c823d00a96f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-          alt="Example Image"
+          alt="Adventure"
         />
       </motion.div>
       <motion.div className="content" variants={contentVariants}>
@@ -43,10 +43,14 @@ function TwoColumnLayout() {
         </p>
         <div className="media">
           <img  className="card"
-          src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+          src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt="card"
+          >
           </img>
           <img  className="card"
-          src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+          src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt="card"
+          >
           </img>
           </div>
       </motion.div>

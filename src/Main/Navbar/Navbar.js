@@ -25,7 +25,7 @@ function Navbar() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          style={{ color: "#fff", fontStyle: "Italic", fontWeight: "bold", color: '#EB455F' }}
+          style={{ fontStyle: "Italic", fontWeight: "bold", color: '#EB455F' }}
         >
           Website
         </motion.span>
@@ -79,9 +79,6 @@ function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
         >
-          <a href="#" className="button">
-            Sign Up
-          </a>
         </motion.li>
       </ul>
     </nav>
